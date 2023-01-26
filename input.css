@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#nav.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+#hamburger.hamburger-active {
+  display: none;
+}
+
+#cross.cross-active {
+  display: block;
+}
+
+#overlay.slide {
+  transform: translateX(0%) !important;
+}
+
+svg:hover path {
+  fill: hsl(136, 65%, 51%);
+}
